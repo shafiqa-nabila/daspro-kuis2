@@ -18,8 +18,8 @@ public class Kuis_20_Fika {
             {35.000, 35.000, 35.000, 35.000, 35.000, 45.000 , 45.000 } //Komik
         };
         
-        String[] kategori20 = {"Fiksi", "Non-Fiksi", "Pendidikan", "Komik"};
-        String[] hari20 = {"Senin", "Selasa", "Rabu", "Kamis", "Jumay", "Sabtu", "Minggu"};
+        String[] kategori20 = {"Fiksi","Non-Fiksi","Pendidikan","Komik"};
+        String[] hari20 = {"Senin","Selasa","Rabu","Kamis","Jumay","Sabtu","Minggu"};
 
         
         //a.
@@ -43,7 +43,10 @@ public class Kuis_20_Fika {
         }
 
         double rataRataPenjualan20 = totalPenjualanKategori20 / 7.0;
-        System.out.println("\nRata-rata penjualan buku pada kategori " + kategori20[kategoriPilihan20] + ": " + rataRataPenjualan20);
+        System.out.println("\nRata-rata penjualan buku pada kategori " + kategori20[0] + ": " + rataRataPenjualan20);
+        System.out.println("\nRata-rata penjualan buku pada kategori " + kategori20[1] + ": " + rataRataPenjualan20);
+        System.out.println("\nRata-rata penjualan buku pada kategori " + kategori20[2] + ": " + rataRataPenjualan20);
+        System.out.println("\nRata-rata penjualan buku pada kategori " + kategori20[3] + ": " + rataRataPenjualan20);
 
         //c.
         int totalPemasukan20 = 0;
